@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/instagram"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linear_layout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Instagram"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:text="Log In"
+            android:id="@+id/login"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:text="Register"
+            android:id="@+id/register"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

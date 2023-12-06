@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+    
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/post_image"
+        android:src="@drawable/instagram"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_image"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/post_image"
+        android:layout_marginTop="-180dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:text="An NFT"
+            android:maxLines="5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="100.0$"
+            android:textSize="30sp"
+            android:layout_gravity="bottom"
+
+            android:maxLines="1"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
