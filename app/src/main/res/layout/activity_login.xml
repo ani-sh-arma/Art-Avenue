@@ -19,31 +19,33 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_marginBottom="40dp"
-            android:src="@drawable/instagram" />
+            android:src="@drawable/art_avenue" />
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:textColor="@color/colorBlack"
             android:background="@drawable/edit_text_bg"
             android:hint="E-mail"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#000000" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:textColor="@color/colorBlack"
-            android:inputType="textPassword"
             android:background="@drawable/edit_text_bg"
             android:hint="Password"
-            android:padding="10dp" />
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#000000" />
 
         <Button
             android:id="@+id/login"

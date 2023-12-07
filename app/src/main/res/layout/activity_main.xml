@@ -6,10 +6,10 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/instagram"
+        android:src="@drawable/art_avenue"
         android:visibility="visible" />
 
     <LinearLayout
@@ -23,10 +23,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Instagram"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/acme"
+            android:text="Art Avenue"
             android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
             android:textSize="30dp"
-            android:layout_marginBottom="50dp"/>
+            android:textStyle="bold" />
 
         <Button
             android:layout_width="match_parent"
